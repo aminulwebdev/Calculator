@@ -17,13 +17,9 @@ let btnMulti = document.querySelector(".btnmulti")
 let btnDivision = document.querySelector(".btndivision")
 let btnDshomik = document.querySelector(".btndshomik")
 
-
-
 let btnOutput = document.querySelector(".btnoutput")
 let btnClear = document.querySelector(".btnclear")
 let btnDelete = document.querySelector(".btndelete")
-
-
 
 btnNine.addEventListener("click", function () {
     display.value += `9`
@@ -56,7 +52,6 @@ btnZero.addEventListener("click", function () {
     display.value += `0`
 })
 
-
 btnDshomik.addEventListener("click", function () {
     display.value += `.`
 })
@@ -74,13 +69,11 @@ btnPlus.addEventListener("click", function () {
     
 })
 
-
 btnOutput.addEventListener("click", function () {
     let getResult = display.value;
     let getOutput = eval(getResult)
     display.value = getOutput
 })
-
 
 btnClear.addEventListener("click", function () {
     display.value = ""
