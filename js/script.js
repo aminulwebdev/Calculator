@@ -64,7 +64,7 @@ btnDivision.addEventListener("click", function () {
     display.value += `/`
 })
 btnMulti.addEventListener("click", function () {
-    display.value += `*`
+    display.value += `x`
 })
 btnMainus.addEventListener("click", function () {
     display.value += `-`
